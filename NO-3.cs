@@ -5,10 +5,15 @@ class YOlo {
 
 What is the largest prime factor of the number 600851475143 ? */
 
+
+    /* a seemingly simple task, but unfortunately factoring large 
+       numbers takes a shit load of time and thus the code
+       must be as optimised as possible, i will sit on the challenge for a while,
+       whilst i absorb some math on factoring :) */
+
     static void Main() {
 
-        Console.WriteLine(check.if_prime(10007));
-        Console.ReadKey();
+
     }
 }
 
@@ -17,7 +22,7 @@ static class check {
 
         bool returnholder = true;
 
-        for (ulong x = 2; x < number; x++) {
+        for (ulong x = 3; x < number; x+=2) {
             if (number % x == 0)
             {
                 returnholder = false;
