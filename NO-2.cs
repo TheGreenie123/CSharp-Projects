@@ -9,6 +9,7 @@ class control {
 
 By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms. */
 
+        /* This is and incomplete project and will not be completed untill i recover the finished file */
         int x, y, z;
         int x = 1;
         int y = 2;
